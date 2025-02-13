@@ -3,10 +3,9 @@ int main()
 {
     
     int age;
-    float weight;
     
-    scanf("%d%f",&age,&weight);
+    scanf("%d",&age);
     
-    printf("age = %d \nweight =%f \n",age,weight);
+    printf("age = %d",age);
     
 }
